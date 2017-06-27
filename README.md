@@ -8,7 +8,7 @@ These MATLAB codes generate dynamic responses (firing rates) of V4 (2)  and vlPF
 2. "stim_input.m" simulates input stimuli to V4 units 1 and 2.  
 3.  "F.m" is a function file that calls various forms of nonlinearity used in the model. 
 4. "poissonspike.m" generates Poisson spikes with the firing rates obtained in the model.
-5.  "roc.m" is called to calculate selectivity by computing the area under the ROC curve.
+5.  "roc.m" is called to calculate selectivity by computing the area under the ROC curve, adapted from Anitha Pasupathy. 
 6.  "extrema.m" is an extrema finding code, slightly modified from an existing code written by Carlos Adrián Vargas Aguilera and obtained from http://www.mathworks.com/matlabcentral/fileexchange
 
  Any comments/bug-reports are welcome (hannahch@uw.edu).  
